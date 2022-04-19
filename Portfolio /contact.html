@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="sub-container">
+                <nav class="navbar">
+                    <a href="index.html"><img class="logo" src="images/Logo Large.png" alt=" Angela Clarke"></a>
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- Top Navigation Menu -->
+<div class="topnav">
+    <a href="index.html" class="active"><img class="logo" src="images/Logo Large.png" alt=" Angela Clarke"></a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="index.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+    </header>
+    <div>
+<p>
+    Please email me only, I'm a millennial and we hate phone calls
+</p></div>
+    <form action="https://formspree.io/f/xyyonypb" method="POST">
+        <!-- your code here -->
+        <div class="form-item">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div class="form-item">
+            <label for="mail">Email</label>
+            <input type="email" id="mail" name="email">
+        </div>
+        <div class="form-item">
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+        </div>
+        <div class="form-item">
+            <button type="submit">Send!</button>
+        </div>
+    </form>
+    <footer>
+        © Copyright 2022 Angela Clarke
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
